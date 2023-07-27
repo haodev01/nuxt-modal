@@ -15,6 +15,11 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  build: {
+    // Change this path to the desired output directory
+    // By default, it is 'dist'
+    outputDir: 'dist',
+  },
 
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -36,6 +41,5 @@ export default {
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  }
+
 }
